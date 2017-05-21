@@ -1,0 +1,35 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-log-out',
+  template: `
+    <button>Log-out</button>
+  `,
+  styles: [`
+    button {
+      color: #E91E63;
+      background-color: rgba(233, 30, 99, 0.02);
+      margin: 3px 20px 0px 0px;
+      text-align: center;
+      font-size: 2.0em;
+      line-height: 69px;
+      font-family: monospace;
+      border-left: 2px solid white;
+      border-radius: 10px;
+      border-right: 2px solid white;
+      padding: 0px 2px 0px 4px;
+    }
+
+    button:focus {
+      outline: 0;
+    }
+  `]
+})
+export class LogOutComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
