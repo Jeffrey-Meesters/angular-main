@@ -16,10 +16,11 @@ import { Component, OnInit } from '@angular/core';
       padding: 10px;
       border-bottom: 1px solid rgb(214, 241, 253);
       text-align: center;
+      background-color: white;
     }
 
     li:hover { 
-        background-color: rgba(3, 169, 244, 0.16);
+        background-color: rgb(203, 239, 255);
         font-size: 2em;
     }
   `]

@@ -10,6 +10,8 @@ import { DropdownbtnComponent } from './dropdownbtn/dropdownbtn.component';
 import { DropboxComponent } from './dropbox/dropbox.component';
 import { DropdownItemComponent } from './dropdown-item/dropdown-item.component';
 import { WrapperComponent } from './wrapper/wrapper.component';
+import { Dropdwnbtn2Component } from './dropdwnbtn2/dropdwnbtn2.component';
+import { Dropbox2Component } from './dropbox2/dropbox2.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { WrapperComponent } from './wrapper/wrapper.component';
     DropdownbtnComponent,
     DropboxComponent,
     DropdownItemComponent,
-    WrapperComponent
+    WrapperComponent,
+    Dropdwnbtn2Component,
+    Dropbox2Component
   ],
   imports: [
     BrowserModule,

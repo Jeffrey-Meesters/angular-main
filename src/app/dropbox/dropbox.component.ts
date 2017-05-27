@@ -11,7 +11,7 @@ import { DropdownItemComponent } from '../dropdown-item/dropdown-item.component'
   styles: [`
       ul {
         position: absolute;
-        width: 200px;
+        width: 150px;
         height: auto;
         border: 2px solid #E91E63;
         border-top: 1px solid rgba(3, 169, 244, 0.16);

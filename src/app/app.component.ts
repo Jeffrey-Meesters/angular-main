@@ -2,6 +2,9 @@ import { Component } from '@angular/core';
 import { LogoComponent } from './logo/logo.component';
 import { LogOutComponent } from './log-out/log-out.component';
 import { DropdownbtnComponent } from './dropdownbtn/dropdownbtn.component';
+import { Dropdwnbtn2Component } from './dropdwnbtn2/dropdwnbtn2.component';
+import { Dropbox2Component } from './dropbox2/dropbox2.component'
+
 import { WrapperComponent } from './wrapper/wrapper.component';
 
 
@@ -12,8 +15,8 @@ import { WrapperComponent } from './wrapper/wrapper.component';
     <nav>
       <app-logo></app-logo>
       <app-dropdownbtn></app-dropdownbtn>
-      <!-- <app-dropdownbtn></app-dropdownbtn>
-      <app-dropdownbtn></app-dropdownbtn> -->
+      <app-dropbox2>
+      </app-dropbox2>
       <app-log-out></app-log-out>
     </nav>
     <app-wrapper></app-wrapper>
@@ -36,6 +39,10 @@ import { WrapperComponent } from './wrapper/wrapper.component';
     }
 
     app-dropdownbtn {
+      margin: 3px 20px 0px 0px;
+    }
+
+    app-dropdwnbtn2 {
       margin: 3px 20px 0px 0px;
     }
   `]
